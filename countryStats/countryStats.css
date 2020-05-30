@@ -97,8 +97,89 @@ body {
     outline: none;
   }
 
-  .body-container{
+  .body-container {
     margin: 50px 1%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+
+  .page-title {
+
+  }
+
+  .country-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .headlines {
+    flex: 1 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px;
+    background-color: rgb(255,255,255);
+
+  }
+
+  .country-stats {
+    flex: 1 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255,255,255);
+
+  }
+
+  .non-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .read-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+ .daily-stats {
+   flex: 1 50%;
+   margin: 10px;
+   text-align: center;
+ }
+
+ .overall-stats {
+   flex: 1 50%;
+   margin: 10px;
+   text-align: center;
+
+
+ }
+  .visuals {
+    flex-grow: 100%;
+    display: flex;
+    margin: 10px;
+
+  }
+
+  .daily-cases-visuals {
+    flex: 1 50%;
+    text-align: center;
+
+
+  }
+
+  .daily-deaths-visuals {
+    flex: 1 50%;
+    text-align: center;
+
+
   }

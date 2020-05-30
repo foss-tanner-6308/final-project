@@ -13,7 +13,7 @@
     <!-- This 3rd-party stylesheet incorporates SVG icons from Font Awesome: http://fontawesome.com/ -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="countryStats.css" media="screen">
+    <link rel="stylesheet" href="searchCountry.css" media="screen">
   </head>
   <body>
 
@@ -38,47 +38,11 @@
     </header>
 
     <main class="body-container">
-      <h1>Country: USA </h1>
-      <main class="country-info">
-        <article class="headlines">
-          <h2 class="headlines-title">Headlines</h2>
-
-
-        </article>
-      </main>
-
-      <main class="country-stats">
-        <h2 class="country-stats-title">Country Statistics</h2>
-
-        <article class="daily-stats">
-          <h3 class="daily-stats-title">Today</h3>
-          <p class="daily-cases">New Cases: x</p>
-          <p class="daily-deaths">New Deaths: x</p>
-
-        </article>
-
-        <article class="overall-stats">
-          <h3 class="overall-stats-title">Summary</h3>
-          <p class="overall-cases"> Total Cases: x</p>
-          <p class="overall-active-cases">Total Active Cases: x</p>
-          <p class="overall-recovered">Total Recovered: x</p>
-          <p class="overall-deaths">Total Deaths: x</p>
-
-        </article>
-
-        <article class="visuals">
-          <div class="daily-cases-visuals">
-            <h3 class="daily-cases-title">Daily Cases</h3>
-          </div>
-
-          <div class="daily-deaths-visuals">
-            <h3 class="daily-deaths-title">Daily Deaths</h3>
-          </div>
-
-
-
-        </main>
-
+      <h1 class="search-title">Search for headlines and stats on any country:</h1>
+      <article class="main-navar-search">
+        <input type="text" id="main-navbar-search-input" placeholder="Search...">
+        <button type="button" id="main-navbar-search-button"><i class="fas fa-search"></i></button>
+      </article>
     </main>
   </body>
 
